@@ -19,7 +19,6 @@ setup(
         ],
     },
     install_requires=[
-        "click==8.1.7",
         "flask==2.3.3",
         "RPi.GPIO==0.7.1; sys_platform == 'linux'",
         "requests==2.24.0",
