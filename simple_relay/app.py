@@ -16,9 +16,11 @@ GPIO_CHANNEL = 17
 
 
 def init_gpio():
+    global GPIO_CHANNEL
     try:
         import RPi.GPIO as GPIO
         GPIO.setmode(GPIO.BCM)
+        GPIO.setup(GPIO_CHANNEL, GPIO.OUT)
     except Exception:
         logger.exception("Failed to init GPIO")
 
