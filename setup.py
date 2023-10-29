@@ -19,9 +19,8 @@ setup(
         ],
     },
     install_requires=[
-        "flask==2.3.3",
+        "flask==2.2.5",
         "RPi.GPIO==0.7.1; sys_platform == 'linux'",
-        "requests==2.24.0",
     ],
     author="Craig Rueda",
     author_email="craig@craigrueda.com",
